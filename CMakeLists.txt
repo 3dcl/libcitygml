@@ -4,7 +4,8 @@ PROJECT ( libcitygml )
 
 set(META_VERSION_MAJOR       "1")
 set(META_VERSION_MINOR       "4")
-set(META_VERSION_PATCH       "2")
+set(META_VERSION_PATCH       "3")
+
 set(META_VERSION             "${META_VERSION_MAJOR}.${META_VERSION_MINOR}.${META_VERSION_PATCH}")
 
 SET( CMAKE_MODULE_PATH "${libcitygml_SOURCE_DIR}/CMakeModules/;${CMAKE_MODULE_PATH}" )
